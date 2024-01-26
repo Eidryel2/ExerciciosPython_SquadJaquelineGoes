@@ -18,3 +18,5 @@ def procurar_contato():
         print(f"O telefone de {nome} é: {telefone}")
     else:
         print(f"Contato {nome} não encontrado.")
+
+        procurar_contato()
